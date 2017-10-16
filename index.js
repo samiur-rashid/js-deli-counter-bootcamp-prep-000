@@ -4,8 +4,7 @@ var i = 0;
 function takeANumber(katzDeliLine, person) {
   katzDeliLine.push(person);
   i++;
-  console.log("Welcome, " + person + ".  You are number " + i + " in line.")
-  return katzDeliLine;
+  return console.log("Welcome, " + person + ".  You are number " + i + " in line.")
 }
 
 function nowServing(katzDeliLine) {
