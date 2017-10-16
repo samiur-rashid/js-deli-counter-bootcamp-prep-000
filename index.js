@@ -9,7 +9,5 @@ function takeANumber(katzDeliLine, person) {
 }
 
 function nowServing(katzDeliLine) {
-  console.log("Current serving " + katzDeliLine[1])
-  katzDeliLine.unshift
-  return katzDeliLine;
+  return console.log("Current serving " + katzDeliLine[1])
 }
