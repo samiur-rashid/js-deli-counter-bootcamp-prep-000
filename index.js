@@ -9,8 +9,12 @@ function takeANumber(katzDeliLine, person) {
 }
 
 function nowServing(katzDeliLine) {
-  console.log("Currently serving " + katzDeliLine[1]);
-  return katzDeliLine;
+  if (katzDeliLine.length > 0) {
+    return console.log("Currently serving " + katzDeliLine[1])
+  }
+  else {
+    return console.log("The line is currently empty");
+  }
 }
 
 function currentLine(katzDeliLine) {
