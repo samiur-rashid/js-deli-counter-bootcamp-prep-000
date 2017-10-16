@@ -8,5 +8,5 @@ function takeANumber(katzDeliLine, person) {
 }
 
 function nowServing(katzDeliLine) {
-  
+  return console.log("Current serving " + katzDeliLine[0])
 }
