@@ -10,5 +10,5 @@ function takeANumber(katzDeliLine, person) {
 
 function nowServing(katzDeliLine) {
   console.log("Current serving " + katzDeliLine[1])
-  
+  return katzDeliLine;
 }
