@@ -12,4 +12,6 @@ function nowServing(katzDeliLine) {
   return console.log("Current serving " + katzDeliLine[1])
 }
 
-function currentLine(katzDeliLine)
+function currentLine(katzDeliLine) {
+  
+}
